@@ -73,7 +73,7 @@ public class taskTest {
         WebDriver driver = acessarAplicacao();
 
         try {
-            driver.findElement(By.xpath("//*[@id=\"addToo\"]")).click();
+            driver.findElement(By.xpath("//*[@id=\"addTodo\"]")).click();
             driver.findElement(By.id("task")).sendKeys("TesteNew");
             driver.findElement(By.id("dueDate")).sendKeys("31/01/2019");
             driver.findElement(By.id("saveButton")).click();
