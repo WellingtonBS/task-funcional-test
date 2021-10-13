@@ -42,7 +42,7 @@ public class taskTest {
         WebDriver driver=new RemoteWebDriver(new URL(huburl), options);
 
         //Test case
-        driver.get("http://localhost:8080/tasks/");
+        driver.get("http://192.168.100.82:8080/tasks/");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         return driver;
 
