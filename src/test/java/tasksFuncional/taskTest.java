@@ -36,13 +36,13 @@ public class taskTest {
         options.setHeadless(true);
 
         //Hub URL
-        String huburl ="http://localhost:4444/wd/hub";
+        String huburl ="http://192.168.100.186:4444/wd/hub";
 
         // Create driver with hub address and capability
         WebDriver driver=new RemoteWebDriver(new URL(huburl), options);
 
         //Test case
-        driver.get("http://localhost:8080/tasks/");
+        driver.get("http://192.168.100.186:8080/tasks/");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         return driver;
 
