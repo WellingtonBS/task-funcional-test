@@ -17,14 +17,16 @@ import java.util.concurrent.TimeUnit;
 public class taskTest {
 
     public WebDriver acessarAplicacao() throws MalformedURLException {
-        /*System.setProperty("webdriver.chrome.driver",
-                "C:\\Impulse\\Projetos\\DEVImpulse\\Driver\\chromedriver.exe");
+
+        System.setProperty("webdriver.chrome.driver",
+                "C:\\Impulse\\Projetos\\DEVImpulse\\Automacao\\Driver\\chromedriver.exe");
 
         WebDriver driver = new ChromeDriver();
-        driver.navigate().to("http://localhost:8080/tasks/");
+        driver.navigate().to("http://localhost:8095/tasks/");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        return driver; */
+        return driver;
 
+        /*
         //Define desired capabilities
         DesiredCapabilities cap=new DesiredCapabilities();
         cap.setBrowserName("chrome");
@@ -36,16 +38,16 @@ public class taskTest {
         options.setHeadless(true);
 
         //Hub URL
-        String huburl ="http://192.168.100.186:4444/wd/hub";
+        String huburl ="http://192.168.100.186:5555/wd/hub";
 
         // Create driver with hub address and capability
         WebDriver driver=new RemoteWebDriver(new URL(huburl), options);
 
         //Test case
-        driver.get("http://192.168.100.186:8080/tasks/");
+        driver.get("http://192.168.100.186:8095/tasks/");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         return driver;
-
+        Testes com Selenium */
     }
 
     @Test
