@@ -56,8 +56,8 @@ public class taskTest {
 
         try {
             driver.findElement(By.xpath("//*[@id=\"addTodo\"]")).click();
-            driver.findElement(By.id("task")).sendKeys("TesteNew");
-            driver.findElement(By.id("dueDate")).sendKeys("31/12/2021");
+            driver.findElement(By.id("task")).sendKeys("TesteNew2");
+            driver.findElement(By.id("dueDate")).sendKeys("31/12/2022");
             driver.findElement(By.id("saveButton")).click();
 
             String mensagem = driver.findElement(By.id("message")).getText();
