@@ -17,15 +17,16 @@ import java.util.concurrent.TimeUnit;
 public class taskTest {
 
     public WebDriver acessarAplicacao() throws MalformedURLException {
-/*
+
         System.setProperty("webdriver.chrome.driver",
                 "C:\\Impulse\\Projetos\\DEVImpulse\\Automacao\\Driver\\chromedriver.exe");
 
         WebDriver driver = new ChromeDriver();
         driver.navigate().to("http://localhost:8095/tasks/");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        return driver;*/
+        return driver;
 
+/*
         ///*
         //Define desired capabilities
         DesiredCapabilities cap=new DesiredCapabilities();

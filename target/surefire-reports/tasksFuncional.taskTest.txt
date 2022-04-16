@@ -1,4 +1,52 @@
 -------------------------------------------------------------------------------
 Test set: tasksFuncional.taskTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.64 s - in tasksFuncional.taskTest
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 10.171 s <<< FAILURE! - in tasksFuncional.taskTest
+deveSalvarTarefaComSucesso(tasksFuncional.taskTest)  Time elapsed: 8.277 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WELLINGTON', ip: '192.168.100.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\welli\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60843}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 338e4c2a906982c83cb3c09d5d1f01d6
+	at tasksFuncional.taskTest.acessarAplicacao(taskTest.java:25)
+	at tasksFuncional.taskTest.deveSalvarTarefaComSucesso(taskTest.java:56)
+
+deveSalvarTarefaComDataPassada(tasksFuncional.taskTest)  Time elapsed: 10.17 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WELLINGTON', ip: '192.168.100.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\welli\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60858}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a13b362a6375294afdc285e3901ada71
+	at tasksFuncional.taskTest.acessarAplicacao(taskTest.java:25)
+	at tasksFuncional.taskTest.deveSalvarTarefaComDataPassada(taskTest.java:107)
+
+deveSalvarTarefaSemDescricao(tasksFuncional.taskTest)  Time elapsed: 8.143 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WELLINGTON', ip: '192.168.100.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\welli\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f21b212d96a42abc38b237061361b3d
+	at tasksFuncional.taskTest.acessarAplicacao(taskTest.java:25)
+	at tasksFuncional.taskTest.deveSalvarTarefaSemDescricao(taskTest.java:73)
+
+deveSalvarTarefaSemData(tasksFuncional.taskTest)  Time elapsed: 9.629 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WELLINGTON', ip: '192.168.100.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\welli\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60840}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 342c7e2028cc4456217454e4563c248b
+	at tasksFuncional.taskTest.acessarAplicacao(taskTest.java:25)
+	at tasksFuncional.taskTest.deveSalvarTarefaSemData(taskTest.java:90)
+
